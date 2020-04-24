@@ -3,16 +3,19 @@ baseURL = "https://delicoti.com/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "My New Hugo Site"
+title = "Home"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
-[params]
-  # LoveIt theme version
-  version = "0.1.X"
-
 [menu]
+  [[menu.main]]
+    identifier = "home"
+    pre = ""
+    name = "Home"
+    url = "/home/"
+    title = ""
+    weight = 1
   [[menu.main]]
     identifier = "posts"
     # you can add extra information before the name (HTML format is allowed), such as icons
@@ -21,25 +24,351 @@ theme = "LoveIt"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
-    weight = 1
+    weight = 2
   [[menu.main]]
     identifier = "tags"
     pre = ""
     name = "Tags"
     url = "/tags/"
     title = ""
-    weight = 2
+    weight = 3
   [[menu.main]]
     identifier = "categories"
     pre = ""
     name = "Categories"
     url = "/categories/"
     title = ""
-    weight = 3
+    weight = 4
   [[menu.main]]
     identifier = "docs"
     pre = ""
     name = "Docs"
     url = "https://hugoloveit.com/categories/documentation/"
     title = ""
-    weight = 3
+    weight = 5
+  [[menu.main]]
+    identifier = "wiki"
+    pre = ""
+    name = "Wiki"
+    url = "https://horia-delicoti.gitbook.io/my-space/"
+    title = ""
+    weight = 6
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+    weight = 7
+  [[menu.main]]
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-fw'></i>"
+    name = ""
+    url = "https://github.com/horia-delicoti/horiadelicoti.com"
+    title = "GitHub"
+    weight = 8
+
+[params]
+  # LoveIt theme version
+  version = "0.1.X"
+  # site description
+  description = "This is My New Hugo Site"
+  # site keywords
+  keywords = ["Theme", "Hugo"]
+  # site default theme ("light", "dark", "auto")
+  defaultTheme = "auto"
+  # public git repo url only then enableGitInfo is true
+  gitRepo = ""
+  # LoveIt   v0.1.1
+  # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
+  fingerprint = ""
+  # Header info
+  [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+  # Footer Copyright Info
+  [params.footer]
+    # Site creation time
+    since = 2020
+    # license info (HTML format is allowed)
+    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  # Home Page Info
+  [params.home]
+    # Home Page Profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = "/images/avatar.png"
+      # subtitle shown in home page
+      subtitle = "Horia Delicoti"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+    # Home Page Posts
+    [params.home.posts]
+      enable = false
+      # special amount of posts in each home posts page
+      paginate = 6
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
+  # Social Info in home page
+  [params.social]
+    GitHub = "horia-delicoti/horiadelicoti.com"
+    Linkedin = "horia-delicoti-b0a39463"
+    Email = "horia.delicoti@gmail.com"
+    # Instagram = "xxxx"
+    # Medium = "xxxx"
+    # Gitlab = "xxxx"
+    # Youtubechannel = "xxxx"
+    # Quora = "xxxx"
+    # Keybase = "xxxx"
+    # Pinterest = "xxxx"
+    # Reddit = "xxxx"
+    # Codepen = "xxxx"
+    # FreeCodeCamp = "xxxx"
+    # Bitbucket = "xxxx"
+    # Stackoverflow = "xxxx"
+    # Snapchat = "xxxx"
+    # Soundcloud = "xxxx"
+    # Spotify = "xxxx"
+    # Paypal = "xxxx"
+    # Goodreads = "xxxx"
+    # Hackernews = "xxxx"
+    # Kickstarter = "xxxx"
+    # Patreon = "xxxx"
+    # Steam = "xxxx"
+    # Whatsapp = "xxxx"
+    # Deviantart = "xxxx"
+    # Wordpress = "xxxx"
+
+  # Page config
+  [params.page]
+    # whether to use lightgallery in the page
+    lightgallery = true
+    # whether to show link to Raw Markdown content of the post
+    linkToMarkdown = true
+  # mathematical formulas (KaTeX https://katex.org/)
+  [params.math]
+    enable = true
+    # default block delimiter is $$ ... $$ and \\[ ... \\]
+    blockLeftDelimiter = ""
+    blockRightDelimiter = ""
+    # default inline delimiter is $ ... $ and \\( ... \\)
+    inlineLeftDelimiter = ""
+    inlineRightDelimiter = ""
+    # KaTeX extension copy_tex
+    copyTex = true
+    # KaTeX extension mhchem
+    mhchem = true
+  # Social Share Links in post page
+  [params.share]
+    enable = true
+    Twitter = true
+    Facebook = true
+    Linkedin = true
+    Whatsapp = true
+    Pinterest = true
+    # Tumblr = true
+    HackerNews = true
+    # Reddit = true
+    # VK = true
+    # Buffer = true
+    # Xing = true
+    # Line = true
+    # Instapaper = true
+    # Pocket = true
+    # Digg = true
+    # Stumbleupon = true
+    # Flipboard = true
+    # Weibo = true
+    # Renren = true
+    # Myspace = true
+    # Blogger = true
+    # Baidu = true
+    # Odnoklassniki = true
+    # Evernote = true
+    # Skype = true
+    # Trello = true
+    # Mix = true
+  # Comment Config
+  [params.comment]
+    enable = false
+    # Disqus Comment Config (https://disqus.com/)
+    [params.comment.disqus]
+      # LoveIt   v0.1.1
+      enable = false
+      # Disqus shortname to use Disqus in posts
+      shortname = ""
+    # Gitalk Comment Config (https://github.com/gitalk/gitalk)
+    [params.comment.gitalk]
+      # LoveIt   v0.1.1
+      enable = false
+      owner = ""
+      repo = ""
+      clientId = ""
+      clientSecret = ""
+    # Valine Comment Config (https://github.com/xCss/Valine)
+    [params.comment.valine]
+      enable = false
+      appId = ""
+      appKey = ""
+      placeholder = "Your comment ..."
+      notify = false
+      verify = true
+      avatar = "mp"
+      meta= ""
+      pageSize = 10
+      lang = "en"
+      visitor = true
+      recordIP = true
+    # Facebook Comment Config (https://developers.facebook.com/docs/plugins/comments)
+    [params.comment.facebook]
+      enable = false
+      width = "100%"
+      numPosts = 10
+      appId = ""
+      languageCode = "en_US"
+
+  # site verification code for Google/Bing/Yandex/Pinterest/Baidu
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+  # Publisher Info just for SEO
+  [params.publisher]
+    name = "horia-delicoti"
+    [params.publisher.logo]
+      url = "logo.png"
+      width = 127
+      height = 40
+  # Website Log Info just for SEO
+  [params.logo]
+    url = "logo.png"
+    width = 127
+    height = 40
+  # Website Image Info just for SEO
+  [params.image]
+    url = "cover.png"
+    width = 800
+    height = 600
+  # CSS and JS Files CDN
+  [params.cdn]
+    # fontawesome-free@5.12.1 https://fontawesome.com/
+    fontawesomeFreeCSS = ''
+    # animate.css@3.7.2 https://github.com/daneden/animate.css
+    animateCSS = ''
+    # smooth-scroll@16.1.2 https://github.com/cferdinandi/smooth-scroll
+    smoothScrollJS = ''
+    # sharer@0.4.0 https://github.com/ellisonleao/sharer.js
+    sharerJS = ''
+    # lazysizes@5.2.0 https://github.com/aFarkas/lazysizes
+    lazysizesJS = ''
+    # lightgallery@1.1.3 lg-thumbnail@1.1.0 lg-zoom@1.1.0 https://github.com/sachinchoolur/lightgallery.js
+    lightgalleryCSS = ''
+    lightgalleryJS = ''
+    lightgalleryThumbnailJS = ''
+    lightgalleryZoomJS = ''
+    # typeit@6.5.1 https://github.com/alexmacarthur/typeit
+    typeitJS = ''
+    # katex@0.11.1 https://github.com/KaTeX/KaTeX
+    katexCSS = ''
+    katexJS = ''
+    katexAutoRenderJS = ''
+    katexCopyTexCSS = ''
+    katexCopyTexJS = ''
+    katexMhchemJS = ''
+    # mermaid@8.4.8 https://github.com/knsv/mermaid
+    mermaidJS = ''
+    # aplayer@1.10.1 https://github.com/MoePlayer/APlayer
+    aplayerCSS = ''
+    aplayerJS = ''
+    # meting@2.0.1 https://github.com/metowolf/MetingJS
+    metingJS = ''
+    # echarts@4.6.0 https://echarts.apache.org/
+    echartsJS = ''
+    echartsMacaronsJS = ''
+    # gitalk@1.6.2 https://github.com/gitalk/gitalk
+    gitalkCSS = ''
+    gitalkJS = ''
+    # valine@1.3.10 https://valine.js.org/
+    valineJS = ''
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# Author Info
+[author]
+  name = "horia"
+  link = ""
+
+# Sitemap Info
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
+[Permalinks]
+  # posts = ":year/:month/:filename"
+  posts = ":filename"
+
+# Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# Options to make output .md files
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+# Options to make output .md files
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+# Options to make hugo output files
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
