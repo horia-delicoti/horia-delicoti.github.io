@@ -36,3 +36,10 @@ theme = "LoveIt"
     url = "/categories/"
     title = ""
     weight = 3
+  [[menu.main]]
+    identifier = "docs"
+    pre = ""
+    name = "Docs"
+    url = "https://hugoloveit.com/categories/documentation/"
+    title = ""
+    weight = 3
