@@ -28,3 +28,9 @@ You should get a build process and a link to the website:
 ```shell
 Web Server is available at http://localhost:1313/
 ```
+
+
+
+---
+### Reference
+Used [avataaars-generator](https://github.com/fangpenlin/avataaars-generator) for the avatar
