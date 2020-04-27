@@ -3,7 +3,7 @@ baseURL = "https://delicoti.com/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "Home"
+#title = "Home"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -13,7 +13,7 @@ theme = "LoveIt"
     identifier = "home"
     pre = ""
     name = "Home"
-    url = "/home/"
+    url = "/"
     title = ""
     weight = 1
   [[menu.main]]
