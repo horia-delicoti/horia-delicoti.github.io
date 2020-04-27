@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/66d03d1f-31cb-4157-96ce-d2c9aa6da638/deploy-status)](https://app.netlify.com/sites/delicoti/deploys)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
 [![License](https://img.shields.io/badge/licence-CC0-green)](https://github.com/horia-delicoti/horiadelicoti.com/blob/master/LICENSE)
 
