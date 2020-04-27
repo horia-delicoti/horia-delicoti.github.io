@@ -61,12 +61,19 @@ theme = "LoveIt"
     title = ""
     weight = 7
   [[menu.main]]
+    identifier = "cv"
+    pre = ""
+    name = "CV"
+    url = "Horia_Delicoti_CV.pdf"
+    title = ""
+    weight = 8
+  [[menu.main]]
     identifier = "github"
     pre = "<i class='fab fa-github fa-fw'></i>"
     name = ""
     url = "https://github.com/horia-delicoti/horiadelicoti.com"
     title = "GitHub"
-    weight = 8
+    weight = 9
 
 [params]
   # LoveIt theme version
