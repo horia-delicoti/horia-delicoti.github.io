@@ -118,7 +118,7 @@ theme = "LoveIt"
       defaultHiddenFromHomePage = false
   # Social Info in home page
   [params.social]
-    GitHub = "horia-delicoti/horiadelicoti.com"
+    GitHub = "horia-delicoti"
     Linkedin = "horia-delicoti-b0a39463"
     Email = "horia.delicoti@gmail.com"
     # Instagram = "xxxx"
