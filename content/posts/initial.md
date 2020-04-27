@@ -1,5 +1,5 @@
 ---
-title: "Initial"
+title: "Zen and the Art of Motorcycle Maintenance"
 date: 2020-04-22T11:06:41+03:00
 draft: false
 ---
