@@ -77,7 +77,7 @@ theme = "LoveIt"
 
 [params]
   # LoveIt theme version
-  version = "0.1.X"
+  version = "0.2.X"
   # site description
   description = "This is My New Hugo Site"
   # site keywords
