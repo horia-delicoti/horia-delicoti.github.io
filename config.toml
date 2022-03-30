@@ -50,7 +50,7 @@ theme = "LoveIt"
     identifier = "wiki"
     pre = ""
     name = "Wiki"
-    url = "https://horia-delicoti.gitbook.io/my-space/"
+    url = "https://horia-delicoti.gitbook.io/wiki"
     title = ""
     weight = 6
   [[menu.main]]
