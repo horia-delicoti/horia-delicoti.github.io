@@ -97,6 +97,17 @@ theme = "LoveIt"
     # mobile header mode ("fixed", "normal", "auto")
     mobileMode = "auto"
   # Footer Copyright Info
+    [params.header.title]
+      # URL of the LOGO
+      logo = ""
+      # title name
+      name = "Horia Delicoti"
+      # you can add extra information before the name (HTML format is supported), such as
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as i
+      post = ""
+      # whether to use typeit animation for title name
+      typeit = false
   [params.footer]
     # Site creation time
     since = 2020
