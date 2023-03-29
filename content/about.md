@@ -1,12 +1,18 @@
 ---
-title: "About"
+title: "About Me"
 date: 2022-10-28T17:23:19+03:00
 draft: false
 ---
 
-Greetings,
+## Basic
 
-👋 My name is Horia Delicoti, and I’m a DevOps Engineer living in Romania/Bucharest. I’m happy you found me.
-I love making and sharing things I have learned from the world.
+- {{< years-till-today "1990-08-05" >}} years old
+- Living in [Manchester, UK](https://en.wikipedia.org/wiki/Manchester)
 
-🖋 I am practicing my writing. You can take a look through my [personal wiki](https://horia-delicoti.gitbook.io/wiki/) where I share everything I learn.
+## Skills
+
+{{< about-me-skills >}}
+
+## Interests
+
+{{< about-me-interests >}}

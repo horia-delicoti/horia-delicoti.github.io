@@ -1,0 +1,12 @@
+<ul>
+  {{ $skills := $.Site.Data.resume.skills }} {{ range $skills }}
+  <li>
+    <span style="font-weight: 600">{{ .name }}</span>
+    <span style="font-size: 0.8em">
+      {{ range .keywords}}
+      <code>{{.}}</code>
+      {{ end}}
+    </span>
+  </li>
+  {{end}}
+</ul>
