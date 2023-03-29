@@ -17,6 +17,13 @@ theme = "LoveIt"
 #   title = ""
 #   weight = 1
   [[menu.main]]
+    identifier = "about"
+    pre = ""
+    name = "About Me"
+    url = "/about/"
+    title = ""
+    weight = 1
+  [[menu.main]]
     identifier = "posts"
     # you can add extra information before the name (HTML format is allowed), such as icons
     pre = ""
@@ -39,7 +46,7 @@ theme = "LoveIt"
 #   url = "/categories/"
 #   title = ""
 #   weight = 4
-  [[menu.main]]
+   [[menu.main]]
     identifier = "docs"
     pre = ""
     name = "Docs"
@@ -53,14 +60,7 @@ theme = "LoveIt"
     url = "https://horia-delicoti.gitbook.io/wiki"
     title = ""
     weight = 6
-  [[menu.main]]
-    identifier = "about"
-    pre = ""
-    name = "About"
-    url = "/about/"
-    title = ""
-    weight = 1
-  [[menu.main]]
+   [[menu.main]]
     identifier = "cv"
     pre = ""
     name = "CV"
@@ -77,13 +77,14 @@ theme = "LoveIt"
 
 [params]
   # LoveIt theme version
+  # https://github.com/dillonzq/LoveIt
   version = "0.2.X"
   # site description
-  description = "This is My New Hugo Site"
+  description = "This is my personal website"
   # site keywords
-  keywords = ["Theme", "Hugo"]
+  keywords = ["cv", "resume", "horia delicoti", "personal site"]
   # site default theme ("light", "dark", "auto")
-  defaultTheme = "auto"
+  defaultTheme = "light"
   # public git repo url only then enableGitInfo is true
   gitRepo = ""
   # LoveIt   v0.1.1
@@ -114,6 +115,10 @@ theme = "LoveIt"
       subtitle = "Horia Delicoti"
       # whether to use typeit animation for subtitle
       typeit = true
+      # second subtitle shown in home page
+      subtitle1 = "Platform Engineer / Infrastructure / DevOps"
+      # whether to use typeit animation for subtitle
+      typeit1 = false
       # whether to show social links
       social = true
     # Home Page Posts
@@ -128,30 +133,10 @@ theme = "LoveIt"
     GitHub = "horia-delicoti"
     Linkedin = "horia-delicoti-b0a39463"
     Email = "horia.delicoti@gmail.com"
+    Goodreads = "105778063-horia"
     # Instagram = "xxxx"
-    # Medium = "xxxx"
     # Gitlab = "xxxx"
-    # Youtubechannel = "xxxx"
     # Quora = "xxxx"
-    # Keybase = "xxxx"
-    # Pinterest = "xxxx"
-    # Reddit = "xxxx"
-    # Codepen = "xxxx"
-    # FreeCodeCamp = "xxxx"
-    # Bitbucket = "xxxx"
-    # Stackoverflow = "xxxx"
-    # Snapchat = "xxxx"
-    # Soundcloud = "xxxx"
-    # Spotify = "xxxx"
-    # Paypal = "xxxx"
-    # Goodreads = "xxxx"
-    # Hackernews = "xxxx"
-    # Kickstarter = "xxxx"
-    # Patreon = "xxxx"
-    # Steam = "xxxx"
-    # Whatsapp = "xxxx"
-    # Deviantart = "xxxx"
-    # Wordpress = "xxxx"
 
   # Page config
   [params.page]
@@ -179,28 +164,14 @@ theme = "LoveIt"
     Facebook = true
     Linkedin = true
     Whatsapp = true
+    Trello = true
     Pinterest = true
-    # Tumblr = true
     HackerNews = true
     # Reddit = true
     # VK = true
     # Buffer = true
     # Xing = true
-    # Line = true
-    # Instapaper = true
-    # Pocket = true
-    # Digg = true
-    # Stumbleupon = true
-    # Flipboard = true
-    # Weibo = true
-    # Renren = true
-    # Myspace = true
-    # Blogger = true
-    # Baidu = true
-    # Odnoklassniki = true
-    # Evernote = true
     # Skype = true
-    # Trello = true
     # Mix = true
   # Comment Config
   [params.comment]
