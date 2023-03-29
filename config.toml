@@ -27,7 +27,7 @@ theme = "LoveIt"
     identifier = "posts"
     # you can add extra information before the name (HTML format is allowed), such as icons
     pre = ""
-    name = "Posts"
+    name = "Blog"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
