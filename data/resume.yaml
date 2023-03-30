@@ -27,7 +27,7 @@ skills:
     keywords:
       - Jenkins
 
-  - name: Infrastructure as Code
+  - name: IaC
     level: advanced
     keywords:
       - Puppet
