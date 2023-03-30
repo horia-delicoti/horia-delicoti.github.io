@@ -32,13 +32,13 @@ theme = "LoveIt"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 2
-# [[menu.main]]
-#   identifier = "tags"
-#   pre = ""
-#   name = "Tags"
-#   url = "/tags/"
-#   title = ""
-#   weight = 3
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 3
 # [[menu.main]]
 #   identifier = "categories"
 #   pre = ""
@@ -46,7 +46,7 @@ theme = "LoveIt"
 #   url = "/categories/"
 #   title = ""
 #   weight = 4
-   [[menu.main]]
+  [[menu.main]]
     identifier = "docs"
     pre = ""
     name = "Docs"
