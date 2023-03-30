@@ -4,7 +4,7 @@ subtitle: "In this article, we will explain how to create a blog site that incur
 date: 2023-03-29T15:17:39+03:00
 draft: false
 
-tags: [hugo, website]
+tags: [hugo]
 categories: []
 fontawesome: true
 linkToMarkdown: true

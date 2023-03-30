@@ -1,14 +1,19 @@
 ---
 title: "Pickle Rick: Try Hack Me Walkthrough"
-date: 2020-04-22T11:06:41+03:00
+subtitle: "A Rick and Morty CTF. Help turn Rick back into a human!"
+date: 2023-01-22T11:06:41+03:00
 draft: false
----
 
-Background
+tags: [tryhackme]
+categories: []
+ontawesome: true
+linkToMarkdown: true
+rssFullText: false
+---
 
 Pickle Rick is a CTF challenge vulnerable VM from Try Hack Me.
 
-Information Gathering
+# Information Gathering
 
 Let’s start with a nmap scan to establish the open ports in the host
 
