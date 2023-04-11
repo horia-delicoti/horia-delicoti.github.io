@@ -56,6 +56,7 @@ Select:
 
 * Advanced Option -> Bootloder version -> Select first option -> Select No to reset boot ROM to defaults
 * Advanced Option -> Boot Order -> Select USB Boot
+* System Options -> Boot / Auto Login -> Console
 
 Shutdown your Raspberry Pi, remove the SD Card and boot your device
 
@@ -77,6 +78,7 @@ dd if=./speedTestFile of=/dev/zero bs=20M count=5 oflag=dsync
 
 * [How To Boot A Raspberry Pi 4 From An SSD][boot_rpi4_youtube]
 * [How to Test Speed of Raspberry Pi SD Card][card_speed_test]
+* [How to Disable Desktop GUI on Raspberry Pi][disable_gui]
 
 [rpi_starter_kit]: https://thepihut.com/products/raspberry-pi-starter-kit
 [2_5_ssd]: https://thepihut.com/products/wd-green-240gb-2-5-ssd
@@ -84,3 +86,4 @@ dd if=./speedTestFile of=/dev/zero bs=20M count=5 oflag=dsync
 [rpi_software]: https://www.raspberrypi.com/software/
 [boot_rpi4_youtube]: https://www.youtube.com/watch?v=a8nzkLryGmM
 [card_speed_test]: https://linuxhint.com/raspberry-pi-sd-card-speed-test/
+[disable_gui]: https://linuxhint.com/disable-gui-raspberry-pi/
