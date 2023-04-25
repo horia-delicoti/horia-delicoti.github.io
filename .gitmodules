@@ -2,3 +2,6 @@
 	path = themes/LoveIt
 	url = https://github.com/horia-delicoti/LoveIt.git
 	branch = master
+[submodule "themes/plausible-hugo"]
+	path = themes/plausible-hugo
+	url = git@github.com:divinerites/plausible-hugo.git

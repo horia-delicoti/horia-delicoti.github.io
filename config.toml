@@ -6,7 +6,7 @@ languageCode = "en"
 title = "Horia Delicoti"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "LoveIt"
+theme = ["LoveIt", "plausible-hugo"]
 
 [menu]
 # [[menu.main]]
@@ -361,3 +361,11 @@ theme = "LoveIt"
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
+
+[params.plausible]
+  enable = true  # Whether to enable plausible tracking
+  domain = "horia.delicoti.com"  # Plausible "domain" name/id in your dashboard
+  outbound_link = true
+  file_downloads = true
+  debug = false
+  gitstar = false
