@@ -2,7 +2,7 @@
   {{ $interests := $.Site.Data.resume.interests }} {{ range $interests }}
   <li>
     <span style="font-weight: 600">{{ .name }}</span>
-    <span style="font-size: 0.8em">
+    <span style="font-size: 1.8em">
       {{ range .keywords}}
       <code>{{.}}</code>
       {{ end}}

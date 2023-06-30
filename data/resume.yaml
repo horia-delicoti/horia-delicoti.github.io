@@ -26,12 +26,14 @@ skills:
     level: advanced
     keywords:
       - Jenkins
+      - GitHub Actions
 
   - name: IaC
     level: advanced
     keywords:
-      - Puppet
       - Ansible
+      - Puppet
+      - Terraform
 
   - name: Container
     level: advanced
@@ -41,9 +43,9 @@ skills:
   - name: Scripting
     level: advanced
     keywords:
+      - Python
       - Bash
       - Ruby
-      - Python
 
   - name: Metrics
     level: advanced
