@@ -7,7 +7,7 @@ draft: false
 ## Basic
 
 - {{< years-till-today "1990-08-05" >}} years old
-- Living in [London, UK](https://en.wikipedia.org/wiki/London)
+- Living in [Uckfield, UK](https://en.wikipedia.org/wiki/Uckfield)
 
 ## Skills
 
