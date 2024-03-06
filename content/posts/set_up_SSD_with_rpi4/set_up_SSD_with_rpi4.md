@@ -23,8 +23,15 @@ I'll walk you through setting up your Raspberry Pi 4 to boot from an USB connect
 ### Install Rasbperry Pi OS
 
 * Install Raspberry Pi OS using [Raspberry Pi Imager][rpi_software]
+* Enable SSH
 
 ## Getting started
+
+Copy SSH key:
+
+```sh
+ssh-copy-id -i ~/.ssh/mykey user@host
+```
 
 Once you have Raspberry Pi OS installed you'll want to make sure it's all up to date
 
