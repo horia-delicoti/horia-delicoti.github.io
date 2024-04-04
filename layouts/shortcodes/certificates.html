@@ -1,0 +1,7 @@
+<ul>
+  {{ $certificates := $.Site.Data.resume.certificates }} {{ range $certificates }}
+  <li>
+    <a href="{{ .url }}"><span style="font-weight: 400">{{ .name }}</span></a>
+  </li>
+  {{end}}
+</ul>

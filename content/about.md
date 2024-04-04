@@ -13,6 +13,10 @@ draft: false
 
 {{< about-me-skills >}}
 
+## Achievements and Certificates
+
+{{< certificates >}}
+
 ## Interests
 
 {{< about-me-interests >}}

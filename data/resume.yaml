@@ -53,6 +53,16 @@ skills:
       - Grafana
       - Prometheus
 
+certificates:
+  - name: "LFS207: Linux System Administration Essentials"
+    date: 2024-04-04
+    url: https://www.credly.com/badges/47213478-f644-4918-8509-d4d52cfeb404/public_url
+    issuer: The Linux Foundation
+  - name: Terraform Associate (003)
+    date: 2023-06-30
+    url: https://www.credly.com/badges/7a8e13c2-2c9c-4ef2-a5e5-0c38e58f84ea/linked_in_profile
+    issuer: HashiCorp Certified
+
 languages:
   - language: Romanian
     fluency: Native speaker
