@@ -6,8 +6,8 @@ draft: false
 
 ## Basic
 
-- {{< years-till-today "1990-08-05" >}} years old
-- Living in [Uckfield, UK](https://en.wikipedia.org/wiki/Uckfield)
+I am a proactive DevOps Engineer with a strong foundation in automation and Linux. I am committed to ensuring smooth operations and enhancing
+system reliability using my excellent skills in infrastructure as code and implementing security policies.
 
 ## Skills
 
@@ -20,3 +20,4 @@ draft: false
 ## Interests
 
 {{< about-me-interests >}}
+
