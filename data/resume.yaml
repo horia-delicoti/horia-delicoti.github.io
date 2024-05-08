@@ -27,6 +27,11 @@ skills:
     keywords:
       - Jenkins
       - GitHub Actions
+  
+  - name: Cloud
+    level: begginer
+    keywords:
+      - AWS
 
   - name: IaC
     level: advanced
@@ -39,6 +44,7 @@ skills:
     level: advanced
     keywords:
       - Docker
+      - KVM
 
   - name: Scripting
     level: advanced
@@ -70,10 +76,11 @@ languages:
     fluency: Fluent (C2)
 
 interests:
-  - name: Video Games
+  - name: Tech
     keywords:
-      - Strategy
-      - Multiplayer
+      - AI
+      - Open-Source
+      - Reading
   - name: Sports
     keywords:
       - Football
