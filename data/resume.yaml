@@ -60,9 +60,9 @@ skills:
       - Prometheus
 
 certificates:
-  - name: "LFS207: Linux System Administration Essentials"
-    date: 2024-04-04
-    url: https://www.credly.com/badges/47213478-f644-4918-8509-d4d52cfeb404/public_url
+  - name: "LFCS: Linux Foundation Certified Systems Administrator"
+    date: 2024-07-10
+    url: https://www.credly.com/badges/10bb36b8-e9e7-4f7a-b9fb-5bef9b15e231/public_url
     issuer: The Linux Foundation
   - name: Terraform Associate (003)
     date: 2023-06-30
