@@ -127,7 +127,7 @@ theme = ["LoveIt", "plausible-hugo"]
       # whether to use typeit animation for subtitle
       typeit = true
       # second subtitle shown in home page
-      subtitle1 = "DevOps Engineer | HashiCorp Certified, Linux Administration"
+      subtitle1 = "DevOps Engineer | Linux, Ansible, Terraform, CI/CD, Cloud"
       # whether to use typeit animation for subtitle
       typeit1 = false
       # whether to show social links
