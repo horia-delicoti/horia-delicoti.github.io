@@ -16,48 +16,67 @@ basics:
       url: https://www.linkedin.com/in/horia-delicoti-b0a39463/
 
 skills:
-  - name: Linux
+  - name: Operating System
     level: advanced
     keywords:
+      - Linux (Open Source)
       - CentOS
       - Ubuntu
 
-  - name: CI/CD
+  - name: Version Control
+    level: advanced
+    keywords:
+      - Git
+
+  - name: Containerization
+    level: advanced
+    keywords:
+      - Docker
+      - KVM
+      - Kubernetes
+
+  - name: CI/CD tools
     level: advanced
     keywords:
       - Jenkins
       - GitHub Actions
-  
-  - name: Cloud
+      - Gitlab CI
+
+  - name: Cloud Platforms
     level: begginer
     keywords:
       - AWS
 
-  - name: IaC
+  - name: Infrastructure as Code
     level: advanced
     keywords:
       - Ansible
       - Puppet
       - Terraform
 
-  - name: Container
-    level: advanced
-    keywords:
-      - Docker
-      - KVM
-
-  - name: Scripting
+  - name: Scripting Languages
     level: advanced
     keywords:
       - Python
       - Bash
       - Ruby
 
-  - name: Metrics
+  - name: Monitoring & Analytics
     level: advanced
     keywords:
       - Grafana
       - Prometheus
+      - AppDynamics
+      - Splunk
+
+  - name: Networking
+    level: advanced
+    keywords:
+      - DNS
+      - SSL
+      - HTTPS
+      - Firewall
+      - TCP/IP
 
 certificates:
   - name: "LFCS: Linux Foundation Certified Systems Administrator"

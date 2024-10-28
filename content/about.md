@@ -6,8 +6,7 @@ draft: false
 
 ## Basic
 
-I am a proactive DevOps Engineer with a strong foundation in automation and Linux. I am committed to ensuring smooth operations and enhancing
-system reliability using my excellent skills in infrastructure as code and implementing security policies.
+I am a results-driven DevOps Engineer with a robust foundation in automation and Linux. I excel in enhancing system reliability and operational efficiency through expertise in infrastructure as code and security policy implementation. My commitment to continuous learning allows me to adapt quickly to evolving technologies and challenges.
 
 ## Skills
 
@@ -20,4 +19,3 @@ system reliability using my excellent skills in infrastructure as code and imple
 ## Interests
 
 {{< about-me-interests >}}
-
