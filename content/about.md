@@ -6,7 +6,9 @@ draft: false
 
 ## Basic
 
-I am a results-driven DevOps Engineer with a robust foundation in automation and Linux. I excel in enhancing system reliability and operational efficiency through expertise in infrastructure as code and security policy implementation. My commitment to continuous learning allows me to adapt quickly to evolving technologies and challenges.
+Passionate DevOps Engineer with 7+ years of experience in automation, Linux, and system reliability. I specialise in
+automating processes, improving infrastructure efficiency, and implementing security policies. Certified in Terraform
+and System Administration, I seek to learn, grow, and stay updated with the latest DevOps tools and best practices.
 
 ## Skills
 

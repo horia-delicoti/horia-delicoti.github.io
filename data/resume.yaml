@@ -32,8 +32,13 @@ skills:
     level: advanced
     keywords:
       - Docker
-      - KVM
       - Kubernetes
+
+  - name: Virtualization
+    level: advanced
+    keywords:
+      - KVM
+      - VMWare
 
   - name: CI/CD tools
     level: advanced
@@ -77,6 +82,7 @@ skills:
       - HTTPS
       - Firewall
       - TCP/IP
+      - LAN/WAN/SDN
 
 certificates:
   - name: "LFCS: Linux Foundation Certified Systems Administrator"
